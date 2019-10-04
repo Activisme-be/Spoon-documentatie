@@ -1,0 +1,25 @@
+{
+  "name": "spoon-documentatie",
+  "version": "1.0.0",
+  "description": "De documentatie omtrent onze starter template genaamd spoon.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Activisme-be/Spoon-documentatie.git"
+  },
+  "keywords": [
+    "Documentatie",
+    "Laravel",
+    "Activisme",
+    "boilerplate"
+  ],
+  "author": "Tim Joosten",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Activisme-be/Spoon-documentatie/issues"
+  },
+  "homepage": "https://github.com/Activisme-be/Spoon-documentatie#readme"
+}
