@@ -14,4 +14,4 @@ Documentatie bedoeld voor de volgende release van Spoon moet worden ingediend bi
 - [Bijdragen](/Contributing.md)
 - [Providers](/Providers.md)
 - [Composers](/) *(todo)*
-- [Models](/) *(todo)*
+- [Models](/Models.md)
