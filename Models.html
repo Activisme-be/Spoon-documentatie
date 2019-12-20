@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Database models | Activisme_BE Spoon</title>
+    <meta name="description" content="De documentatie omtrent onze starter template genaamd spoon.">
+    
+    
+    <link rel="preload" href="/Spoon-documentatie/assets/css/0.styles.b4c60358.css" as="style"><link rel="preload" href="/Spoon-documentatie/assets/js/app.11da1346.js" as="script"><link rel="preload" href="/Spoon-documentatie/assets/js/2.a6a5e2ff.js" as="script"><link rel="preload" href="/Spoon-documentatie/assets/js/7.6abdedf8.js" as="script"><link rel="prefetch" href="/Spoon-documentatie/assets/js/10.c5dd0e2f.js"><link rel="prefetch" href="/Spoon-documentatie/assets/js/3.adc3120b.js"><link rel="prefetch" href="/Spoon-documentatie/assets/js/4.2a3280e3.js"><link rel="prefetch" href="/Spoon-documentatie/assets/js/5.3e972b4e.js"><link rel="prefetch" href="/Spoon-documentatie/assets/js/6.6dc7c3bf.js"><link rel="prefetch" href="/Spoon-documentatie/assets/js/8.1f9d7e67.js"><link rel="prefetch" href="/Spoon-documentatie/assets/js/9.b3d3b88f.js">
+    <link rel="stylesheet" href="/Spoon-documentatie/assets/css/0.styles.b4c60358.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div class="theme-container"><header class="navbar"><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/Spoon-documentatie/" class="home-link router-link-active"><!----> <span class="site-name">Activisme_BE Spoon</span></a> <div class="links"><div class="search-box"><input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <nav class="nav-links can-hide"><div class="nav-item"><a href="/Spoon-documentatie/" class="nav-link">Home</a></div><div class="nav-item"><a href="/Spoon-documentatie/" class="nav-link">Changelog</a></div><div class="nav-item"><a href="/Spoon-documentatie/" class="nav-link">Community</a></div> <a href="https://github.com/Activisme-be/Spoon" target="_blank" rel="noopener noreferrer" class="repo-link">
+    Github
+    <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></nav></div></header> <div class="sidebar-mask"></div> <aside class="sidebar"><nav class="nav-links"><div class="nav-item"><a href="/Spoon-documentatie/" class="nav-link">Home</a></div><div class="nav-item"><a href="/Spoon-documentatie/" class="nav-link">Changelog</a></div><div class="nav-item"><a href="/Spoon-documentatie/" class="nav-link">Community</a></div> <a href="https://github.com/Activisme-be/Spoon" target="_blank" rel="noopener noreferrer" class="repo-link">
+    Github
+    <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></nav>  <ul class="sidebar-links"><li><section class="sidebar-group depth-0"><p class="sidebar-heading open"><span>Database models</span> <!----></p> <ul class="sidebar-links sidebar-group-items"><li><a href="/Spoon-documentatie/Models.html#base-model" class="sidebar-link">Base model</a><ul class="sidebar-sub-headers"></ul></li></ul></section></li></ul> </aside> <main class="page"> <div class="theme-default-content content__default"><h1 id="database-models"><a href="#database-models" aria-hidden="true" class="header-anchor">#</a> Database models</h1> <p>Database models in Spoon zijn geplaatse in de <code>app/Models</code> directory in plaats van de applicatie root directory.
+Dit is gedaan wegens organisatorische redenen en om een didelijker structuur te hebben in de broncode van jouw applicatie.</p> <p>De namespace staat gelijk aan de directory structuur zoals gewoonlijk.</p> <h2 id="base-model"><a href="#base-model" aria-hidden="true" class="header-anchor">#</a> Base model</h2> <p>De applicatie bezit ook een basis model dat te vinden is onder de volgende path. <code>app/Model.php</code>. Deze model
+Is bedoeld voor gezamelijk logica tussen alle models buiten de models die gebruikt worden voor authenticatie.</p> <p>Om u wild idee te geven over wt u hier kunt plaatsen:</p> <ul><li>Validatie regels</li> <li>Overschrijven van huidige Eloquent methodes.</li> <li>Wijzigen van de PRIMARY KEY.</li> <li>Enz.</li></ul> <p>Standaard ziet de model er als volgd uit.</p> <div class="language-php extra-class"><pre class="language-php"><code><span class="token php language-php"><span class="token delimiter important">&lt;?php</span>
+
+<span class="token keyword">namespace</span> <span class="token package">App</span><span class="token punctuation">;</span>
+
+<span class="token keyword">use</span> <span class="token package">Illuminate<span class="token punctuation">\</span>Database<span class="token punctuation">\</span>Eloquent<span class="token punctuation">\</span>Model</span> <span class="token keyword">as</span> BaseModel<span class="token punctuation">;</span>
+
+<span class="token comment">/**
+ * Class Model
+ *
+ * Base model for all the shard logic between all the application models in the application.
+ * Except the user or other authentication models.
+ *
+ * @see https://activisme-be.github.io/Spoon-documentatie/Models.html#basis-model
+ *
+ * @package App
+ */</span>
+<span class="token keyword">class</span> <span class="token class-name">Model</span> <span class="token keyword">extends</span> <span class="token class-name">BaseModel</span>
+<span class="token punctuation">{</span>
+    <span class="token comment">//</span>
+<span class="token punctuation">}</span>
+</span></code></pre></div></div> <footer class="page-edit"><div class="edit-link"><a href="https://github.com/Activisme-be/Spoon-documentatie/edit/master/docs/Models.md" target="_blank" rel="noopener noreferrer">Help ons de documentatie te verbeteren!</a> <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></div> <!----></footer> <!----> </main></div><div class="global-ui"></div></div>
+    <script src="/Spoon-documentatie/assets/js/app.11da1346.js" defer></script><script src="/Spoon-documentatie/assets/js/2.a6a5e2ff.js" defer></script><script src="/Spoon-documentatie/assets/js/7.6abdedf8.js" defer></script>
+  </body>
+</html>
